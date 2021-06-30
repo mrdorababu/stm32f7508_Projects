@@ -1,0 +1,85 @@
+* thi.ng/ct-gui
+
+Small GUI library for embedded devices, x-platform in principle, but
+currently only fully implemented for STM32F746-DISCO boards
+(modifications for other STM32 devices should be trivial).
+
+*Compiled code size ~1KB (or less).*
+
+Currently supported GUI controls:
+
+- Push button
+- Radio button
+- Dial (can also be slider)
+
+** Sprite sheets
+
+By default all GUI elements make use of sprite sheets, e.g. generated
+with the amazing [[http://www.g200kg.com/en/software/knobman.html][jKnobMan]] / [[http://www.g200kg.com/en/webknobman/][WebKnobMan]] editor (there're [[http://www.g200kg.com/en/webknobman/gallery.php][100s of button
+designs]] available on their website). Alternatively, you can specify a
+custom render function for each individual GUI element.
+
+Sprite sheets can be converted into C header files using
+[[http://thi.ng/img2array][thi.ng/img2array]]. This repo contains 2 different sheets for dial
+buttons.
+
+** Example usage
+
+[[https://raw.githubusercontent.com/thi-ng/ws-ldn-4/master/assets/ws-ldn-4-synth.jpg]]
+
+See the following workshop repositories for concrete usage examples:
+
+- [[https://github.com/thi-ng/ws-ldn-12][WS-LDN-12]] ([[https://github.com/thi-ng/ws-ldn-12/blob/master/src/ex02/main.c][example source]] - this repo also includes *ct-gui* as submodule)
+- [[https://github.com/thi-ng/ws-ldn-7][WS-LDN-7]] (uses older version)
+- [[https://github.com/thi-ng/ws-ldn-4][WS-LDN-4]] (uses older version)
+
+** Basic use
+
+#+BEGIN_SRC c
+  // main header (auto-includes necessary STM BSP headers)
+  #include "ct-gui/gui_stm32.h"
+
+  // Sprite sheet definition (defined in spritesheet_dustknob48.c)
+  extern const CTGUI_SpriteSheet ctgui_dustknob48_12_rgb888;
+
+  // event handler for volume dial knob changes
+  static void setVolume(GUIElement *e) {
+    DialButtonState *db = e->userData;
+    BSP_AUDIO_OUT_SetVolume((uint8_t) (db->value * 100));
+  }
+
+  static void demoGUI() {
+    CTGUI gui;
+    ctgui_init(&gui, 3, &CTGUI_FONT, CTGUI_BG_COLOR, CTGUI_TEXT_COLOR);
+    ctgui_dialbutton(&gui, 0, "Volume", 135, 100, 0.f, 0.025f, &ctgui_dustknob48_12_rgb888, setVolume);
+    ctgui_dialbutton(&gui, 1, "Freq", 205, 100, 0.f, 0.025f, &ctgui_dustknob48_12_rgb888, NULL);
+    ctgui_dialbutton(&gui, 2, "Filter", 275, 100, 0.f, 0.025f, &ctgui_dustknob48_12_rgb888, NULL);
+
+    BSP_LCD_Clear(gui.col_bg);
+    ctgui_force_redraw(&gui);
+
+    TS_StateTypeDef rawTouchState;
+    CTGUI_TouchState touchState;
+  
+    while (1) {
+      // poll touchscreen
+      BSP_TS_GetState(&rawTouchState);
+      // convert touch info
+      ctgui_update_touch(&rawTouchState, &touchState);
+      // update GUI elements (if needed)
+      ctgui_update(&gui, &touchState);
+      // redraw (only does minimum work via dirty flags)
+      ctgui_draw(&gui);
+      HAL_Delay(10);
+    }
+  }
+#+END_SRC
+
+** Contributors
+
+| *Name*          | *Role*                          | *Website* |
+| [[mailto:k@thi.ng][Karsten Schmidt]] | initiator & principal developer | [[http://thi.ng][thi.ng]]    |
+
+** License
+
+This project is open source and licensed under the [[http://www.apache.org/licenses/LICENSE-2.0][Apache Software License 2.0]].

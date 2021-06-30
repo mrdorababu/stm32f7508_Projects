@@ -1,0 +1,10 @@
+TS_DISCO_F7508.cpp:23:1:TS_DISCO_F7508::TS_DISCO_F7508()	16	static
+TS_DISCO_F7508.cpp:29:1:TS_DISCO_F7508::~TS_DISCO_F7508()	16	static
+TS_DISCO_F7508.cpp:38:9:uint8_t TS_DISCO_F7508::Init(uint16_t, uint16_t)	16	static
+TS_DISCO_F7508.cpp:43:9:uint8_t TS_DISCO_F7508::DeInit()	16	static
+TS_DISCO_F7508.cpp:48:9:uint8_t TS_DISCO_F7508::ITConfig()	16	static
+TS_DISCO_F7508.cpp:53:9:uint8_t TS_DISCO_F7508::ITGetStatus()	16	static
+TS_DISCO_F7508.cpp:58:9:uint8_t TS_DISCO_F7508::GetState(TS_StateTypeDef*)	16	static
+TS_DISCO_F7508.cpp:63:9:uint8_t TS_DISCO_F7508::Get_GestureId(TS_StateTypeDef*)	16	static
+TS_DISCO_F7508.cpp:68:6:void TS_DISCO_F7508::ITClear()	16	static
+TS_DISCO_F7508.cpp:73:9:uint8_t TS_DISCO_F7508::ResetTouchData(TS_StateTypeDef*)	16	static

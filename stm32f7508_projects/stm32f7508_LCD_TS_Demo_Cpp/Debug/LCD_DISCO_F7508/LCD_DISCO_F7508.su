@@ -1,0 +1,44 @@
+LCD_DISCO_F7508.cpp:22:1:LCD_DISCO_F7508::LCD_DISCO_F7508()	24	static
+LCD_DISCO_F7508.cpp:44:1:LCD_DISCO_F7508::~LCD_DISCO_F7508()	16	static
+LCD_DISCO_F7508.cpp:53:9:uint8_t LCD_DISCO_F7508::Init()	16	static
+LCD_DISCO_F7508.cpp:58:9:uint8_t LCD_DISCO_F7508::DeInit()	16	static
+LCD_DISCO_F7508.cpp:63:10:uint32_t LCD_DISCO_F7508::GetXSize()	16	static
+LCD_DISCO_F7508.cpp:68:10:uint32_t LCD_DISCO_F7508::GetYSize()	16	static
+LCD_DISCO_F7508.cpp:73:6:void LCD_DISCO_F7508::SetXSize(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:78:6:void LCD_DISCO_F7508::SetYSize(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:83:6:void LCD_DISCO_F7508::LayerDefaultInit(uint16_t, uint32_t)	24	static
+LCD_DISCO_F7508.cpp:88:6:void LCD_DISCO_F7508::LayerRgb565Init(uint16_t, uint32_t)	24	static
+LCD_DISCO_F7508.cpp:93:6:void LCD_DISCO_F7508::SetTransparency(uint32_t, uint8_t)	24	static
+LCD_DISCO_F7508.cpp:98:6:void LCD_DISCO_F7508::SetLayerAddress(uint32_t, uint32_t)	24	static
+LCD_DISCO_F7508.cpp:103:6:void LCD_DISCO_F7508::SetColorKeying(uint32_t, uint32_t)	24	static
+LCD_DISCO_F7508.cpp:108:6:void LCD_DISCO_F7508::ResetColorKeying(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:113:6:void LCD_DISCO_F7508::SetLayerWindow(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)	40	static
+LCD_DISCO_F7508.cpp:118:6:void LCD_DISCO_F7508::SelectLayer(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:123:6:void LCD_DISCO_F7508::SetLayerVisible(uint32_t, FunctionalState)	24	static
+LCD_DISCO_F7508.cpp:128:6:void LCD_DISCO_F7508::SetTextColor(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:133:10:uint32_t LCD_DISCO_F7508::GetTextColor()	16	static
+LCD_DISCO_F7508.cpp:138:6:void LCD_DISCO_F7508::SetBackColor(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:143:10:uint32_t LCD_DISCO_F7508::GetBackColor()	16	static
+LCD_DISCO_F7508.cpp:148:6:void LCD_DISCO_F7508::SetFont(sFONT*)	16	static
+LCD_DISCO_F7508.cpp:153:8:sFONT* LCD_DISCO_F7508::GetFont()	16	static
+LCD_DISCO_F7508.cpp:158:10:uint32_t LCD_DISCO_F7508::ReadPixel(uint16_t, uint16_t)	16	static
+LCD_DISCO_F7508.cpp:163:6:void LCD_DISCO_F7508::DrawPixel(uint16_t, uint16_t, uint32_t)	24	static
+LCD_DISCO_F7508.cpp:168:6:void LCD_DISCO_F7508::Clear(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:173:6:void LCD_DISCO_F7508::ClearStringLine(uint32_t)	16	static
+LCD_DISCO_F7508.cpp:178:6:void LCD_DISCO_F7508::DisplayStringAtLine(uint16_t, uint8_t*)	24	static
+LCD_DISCO_F7508.cpp:183:6:void LCD_DISCO_F7508::DisplayStringAt(uint16_t, uint16_t, uint8_t*, Text_AlignModeTypdef)	24	static
+LCD_DISCO_F7508.cpp:188:6:void LCD_DISCO_F7508::DisplayChar(uint16_t, uint16_t, uint8_t)	24	static
+LCD_DISCO_F7508.cpp:193:6:void LCD_DISCO_F7508::DrawHLine(uint16_t, uint16_t, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:198:6:void LCD_DISCO_F7508::DrawVLine(uint16_t, uint16_t, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:203:6:void LCD_DISCO_F7508::DrawLine(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:208:6:void LCD_DISCO_F7508::DrawRect(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:213:6:void LCD_DISCO_F7508::DrawCircle(uint16_t, uint16_t, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:218:6:void LCD_DISCO_F7508::DrawPolygon(pPoint, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:223:6:void LCD_DISCO_F7508::DrawEllipse(int, int, int, int)	24	static
+LCD_DISCO_F7508.cpp:228:6:void LCD_DISCO_F7508::DrawBitmap(uint32_t, uint32_t, uint8_t*)	24	static
+LCD_DISCO_F7508.cpp:233:6:void LCD_DISCO_F7508::FillRect(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:238:6:void LCD_DISCO_F7508::FillCircle(uint16_t, uint16_t, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:243:6:void LCD_DISCO_F7508::FillPolygon(pPoint, uint16_t)	24	static
+LCD_DISCO_F7508.cpp:248:6:void LCD_DISCO_F7508::FillEllipse(int, int, int, int)	24	static
+LCD_DISCO_F7508.cpp:253:6:void LCD_DISCO_F7508::DisplayOff()	16	static
+LCD_DISCO_F7508.cpp:258:6:void LCD_DISCO_F7508::DisplayOn()	16	static

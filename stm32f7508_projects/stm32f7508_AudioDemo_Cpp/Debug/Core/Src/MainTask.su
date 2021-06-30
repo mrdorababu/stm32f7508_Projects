@@ -1,0 +1,3 @@
+MainTask.cpp:85:6:void MainTask()	16	static
+MainTask.cpp:141:6:void BSP_AUDIO_IN_TransferComplete_CallBack()	4	static
+MainTask.cpp:151:6:void BSP_AUDIO_IN_HalfTransfer_CallBack()	4	static

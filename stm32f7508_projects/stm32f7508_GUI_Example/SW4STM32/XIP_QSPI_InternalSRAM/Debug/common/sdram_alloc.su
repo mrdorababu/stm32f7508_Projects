@@ -1,0 +1,2 @@
+sdram_alloc.c:9:7:ct_sdram_malloc	0	static
+sdram_alloc.c:18:7:ct_sdram_calloc	24	static

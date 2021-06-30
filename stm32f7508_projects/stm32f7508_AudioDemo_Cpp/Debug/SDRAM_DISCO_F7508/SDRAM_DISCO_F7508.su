@@ -1,0 +1,10 @@
+SDRAM_DISCO_F7508.cpp:22:1:SDRAM_DISCO_F7508::SDRAM_DISCO_F7508()	16	static
+SDRAM_DISCO_F7508.cpp:28:1:SDRAM_DISCO_F7508::~SDRAM_DISCO_F7508()	16	static
+SDRAM_DISCO_F7508.cpp:39:9:uint8_t SDRAM_DISCO_F7508::Init()	16	static
+SDRAM_DISCO_F7508.cpp:44:9:uint8_t SDRAM_DISCO_F7508::DeInit()	16	static
+SDRAM_DISCO_F7508.cpp:49:6:void SDRAM_DISCO_F7508::Initialization_sequence(uint32_t)	16	static
+SDRAM_DISCO_F7508.cpp:54:9:uint8_t SDRAM_DISCO_F7508::ReadData(uint32_t, uint32_t*, uint32_t)	24	static
+SDRAM_DISCO_F7508.cpp:59:9:uint8_t SDRAM_DISCO_F7508::ReadData_DMA(uint32_t, uint32_t*, uint32_t)	24	static
+SDRAM_DISCO_F7508.cpp:64:9:uint8_t SDRAM_DISCO_F7508::WriteData(uint32_t, uint32_t*, uint32_t)	24	static
+SDRAM_DISCO_F7508.cpp:69:9:uint8_t SDRAM_DISCO_F7508::WriteData_DMA(uint32_t, uint32_t*, uint32_t)	24	static
+SDRAM_DISCO_F7508.cpp:74:9:uint8_t SDRAM_DISCO_F7508::Sendcmd(FMC_SDRAM_CommandTypeDef*)	16	static

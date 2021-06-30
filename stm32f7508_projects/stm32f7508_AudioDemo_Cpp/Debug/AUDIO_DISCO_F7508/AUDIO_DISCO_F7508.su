@@ -1,0 +1,22 @@
+AUDIO_DISCO_F7508.cpp:23:1:AUDIO_DISCO_F7508::AUDIO_DISCO_F7508()	24	static
+AUDIO_DISCO_F7508.cpp:29:1:AUDIO_DISCO_F7508::~AUDIO_DISCO_F7508()	16	static
+AUDIO_DISCO_F7508.cpp:38:9:uint8_t AUDIO_DISCO_F7508::OUT_Init(uint16_t, uint8_t, uint32_t)	24	static
+AUDIO_DISCO_F7508.cpp:43:9:uint8_t AUDIO_DISCO_F7508::OUT_Play(uint16_t*, uint32_t)	24	static
+AUDIO_DISCO_F7508.cpp:48:6:void AUDIO_DISCO_F7508::OUT_ChangeBuffer(uint16_t*, uint16_t)	24	static
+AUDIO_DISCO_F7508.cpp:53:9:uint8_t AUDIO_DISCO_F7508::OUT_Pause()	16	static
+AUDIO_DISCO_F7508.cpp:58:9:uint8_t AUDIO_DISCO_F7508::OUT_Resume()	16	static
+AUDIO_DISCO_F7508.cpp:63:9:uint8_t AUDIO_DISCO_F7508::OUT_Stop(uint32_t)	16	static
+AUDIO_DISCO_F7508.cpp:68:9:uint8_t AUDIO_DISCO_F7508::OUT_SetVolume(uint8_t)	16	static
+AUDIO_DISCO_F7508.cpp:73:9:uint8_t AUDIO_DISCO_F7508::OUT_SetMute(uint32_t)	16	static
+AUDIO_DISCO_F7508.cpp:78:9:uint8_t AUDIO_DISCO_F7508::OUT_SetOutputMode(uint8_t)	16	static
+AUDIO_DISCO_F7508.cpp:83:6:void AUDIO_DISCO_F7508::OUT_SetFrequency(uint32_t)	16	static
+AUDIO_DISCO_F7508.cpp:88:6:void AUDIO_DISCO_F7508::OUT_SetAudioFrameSlot(uint32_t)	16	static
+AUDIO_DISCO_F7508.cpp:93:6:void AUDIO_DISCO_F7508::OUT_DeInit()	16	static
+AUDIO_DISCO_F7508.cpp:98:9:uint8_t AUDIO_DISCO_F7508::IN_Init(uint16_t, uint8_t, uint32_t)	24	static
+AUDIO_DISCO_F7508.cpp:103:9:uint8_t AUDIO_DISCO_F7508::IN_OUT_Init(uint16_t, uint16_t, uint32_t, uint32_t, uint32_t)	32	static
+AUDIO_DISCO_F7508.cpp:108:10:uint8_t AUDIO_DISCO_F7508::IN_Record(uint16_t*, uint32_t)	24	static
+AUDIO_DISCO_F7508.cpp:113:9:uint8_t AUDIO_DISCO_F7508::IN_Stop(uint32_t)	16	static
+AUDIO_DISCO_F7508.cpp:118:9:uint8_t AUDIO_DISCO_F7508::IN_Pause()	16	static
+AUDIO_DISCO_F7508.cpp:123:9:uint8_t AUDIO_DISCO_F7508::IN_Resume()	16	static
+AUDIO_DISCO_F7508.cpp:128:9:uint8_t AUDIO_DISCO_F7508::IN_SetVolume(uint8_t)	16	static
+AUDIO_DISCO_F7508.cpp:133:6:void AUDIO_DISCO_F7508::IN_DeInit()	16	static

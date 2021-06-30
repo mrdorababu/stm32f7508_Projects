@@ -1,0 +1,3 @@
+clockconfig.c:23:6:SystemClock_Config	208	static
+clockconfig.c:96:6:SystemClock_Config_USB	208	static
+clockconfig.c:144:6:CPU_CACHE_Enable	16	static,ignoring_inline_asm

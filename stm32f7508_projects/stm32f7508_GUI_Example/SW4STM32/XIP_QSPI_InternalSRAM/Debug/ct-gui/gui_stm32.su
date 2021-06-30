@@ -1,0 +1,6 @@
+gui_stm32.c:7:13:LL_ConvertLineToARGB8888	32	static
+gui_stm32.c:31:6:ctgui_draw_element_label	0	static
+gui_stm32.c:41:6:ctgui_draw_sprite	32	static
+gui_stm32.c:63:6:ctgui_draw_raw	32	static
+gui_stm32.c:81:6:ctgui_draw	24	static
+gui_stm32.c:95:6:ctgui_update_touch	0	static

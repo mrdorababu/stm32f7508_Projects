@@ -1,0 +1,13 @@
+gui.c:7:15:point_inside	8	static
+gui.c:58:6:ctgui_render_button	8	static
+gui.c:95:6:ctgui_render_dial	16	static
+gui.c:14:6:ctgui_handle_togglebutton	8	static
+gui.c:41:6:ctgui_handle_radiobutton	8	static
+gui.c:68:6:ctgui_handle_dial	16	static
+gui.c:105:16:ctgui_element_init	16	static
+gui.c:125:16:ctgui_dialbutton	32	static
+gui.c:144:16:ctgui_togglebutton	32	static
+gui.c:161:16:ctgui_radiobutton	32	static
+gui.c:178:8:ctgui_init	24	static
+gui.c:191:6:ctgui_force_redraw	12	static
+gui.c:198:6:ctgui_update	24	static
