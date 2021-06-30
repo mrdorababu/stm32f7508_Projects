@@ -1,0 +1,2 @@
+main.c:74:10:fce	16	static
+main.c:43:5:main	112	static,ignoring_inline_asm
