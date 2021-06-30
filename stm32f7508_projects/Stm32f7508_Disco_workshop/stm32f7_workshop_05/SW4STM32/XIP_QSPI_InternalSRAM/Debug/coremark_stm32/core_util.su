@@ -1,6 +1,0 @@
-core_util.c:39:9:get_seed_32	0	static
-core_util.c:142:8:crcu8	12	static
-core_util.c:166:8:crcu16	8	static
-core_util.c:171:8:crcu32	8	static
-core_util.c:176:8:crc16	0	static
-core_util.c:180:7:check_data_types	0	static

@@ -1,3 +1,0 @@
-core_state.c:116:6:core_init_state	28	static
-core_state.c:184:17:core_state_transition	12	static
-core_state.c:43:8:core_bench_state	112	static

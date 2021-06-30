@@ -1,6 +1,0 @@
-core_portme.c:65:6:start_time	0	static
-core_portme.c:74:6:stop_time	0	static
-core_portme.c:86:12:get_time	0	static
-core_portme.c:96:10:time_in_secs	16	static
-core_portme.c:107:6:portable_init	0	static
-core_portme.c:121:6:portable_fini	0	static
