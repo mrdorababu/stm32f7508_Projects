@@ -1,0 +1,8 @@
+stdio.h:214:5:fputc	16	static
+core_portme.c:53:14:barebones_clock	0	static
+core_portme.c:78:6:start_time	8	static
+core_portme.c:87:6:stop_time	8	static
+core_portme.c:99:12:get_time	0	static
+core_portme.c:109:10:time_in_secs	8	static
+core_portme.c:120:6:portable_init	0	static
+core_portme.c:134:6:portable_fini	0	static

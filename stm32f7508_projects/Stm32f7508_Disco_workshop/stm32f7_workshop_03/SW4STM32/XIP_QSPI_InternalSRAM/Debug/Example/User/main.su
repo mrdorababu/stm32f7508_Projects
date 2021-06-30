@@ -1,0 +1,5 @@
+core_cm7.h:2229:22:SCB_EnableICache	0	static,ignoring_inline_asm
+main.c:238:13:TransferComplete	0	static
+main.c:250:13:TransferError	0	static
+main.c:274:6:SystemClock_Config	80	static
+main.c:66:5:main	32	static,ignoring_inline_asm
