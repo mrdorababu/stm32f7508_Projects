@@ -4437,3 +4437,9 @@ java.io.IOException: T
 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:874)
 	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1232)
 	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-07-02 19:00:22.162
+!MESSAGE Indexed 'UART_config' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-07-02 19:01:20.288
+!MESSAGE Indexed 'UART_config' (58 sources, 120 headers) in 13.4 sec: 13,671 declarations; 108,942 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0016%)
