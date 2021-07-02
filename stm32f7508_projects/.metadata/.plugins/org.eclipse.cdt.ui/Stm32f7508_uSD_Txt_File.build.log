@@ -1,0 +1,35 @@
+09:43:49 **** Incremental Build of configuration Debug for project Stm32f7508_uSD_Txt_File ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F750xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:35: error: 'SD_Path' undeclared (first use in this function); did you mean 'SDPath'?
+   99 |   if(FATFS_LinkDriver(&SD_Driver, SD_Path)==0)
+      |                                   ^~~~~~~
+      |                                   SDPath
+../Core/Src/main.c:99:35: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:114:24: error: 'Myfile' undeclared (first use in this function); did you mean 'MyFile'?
+  114 |           res=f_write(&Myfile,wtext,sizeof(wtext)-1,(void*)&byteswritten);
+      |                        ^~~~~~
+      |                        MyFile
+../Core/Src/main.c:114:61: error: 'byteswritten' undeclared (first use in this function); did you mean 'bytesWritten'?
+  114 |           res=f_write(&Myfile,wtext,sizeof(wtext)-1,(void*)&byteswritten);
+      |                                                             ^~~~~~~~~~~~
+      |                                                             bytesWritten
+../Core/Src/main.c:131:22: warning: pointer targets in passing argument 1 of 'FATFS_UnLinkDriver' differ in signedness [-Wpointer-sign]
+  131 |   FATFS_UnLinkDriver(SDPath);
+      |                      ^~~~~~
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+In file included from ../FATFS/App/fatfs.h:27,
+                 from ../Core/Src/main.c:22:
+../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:68:34: note: expected 'char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+   68 | uint8_t FATFS_UnLinkDriver(char *path);
+      |                            ~~~~~~^~~~
+../Core/Src/main.c:93:9: warning: unused variable 'SDFATS' [-Wunused-variable]
+   93 |   FATFS SDFATS;
+      |         ^~~~~~
+make: *** [Core/Src/subdir.mk:42: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+09:43:49 Build Failed. 4 errors, 2 warnings. (took 640ms)
+

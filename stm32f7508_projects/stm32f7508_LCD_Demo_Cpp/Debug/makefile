@@ -81,8 +81,8 @@ all: main-build
 main-build: stm32f7508_LCD_Demo_Cpp.elf secondary-outputs
 
 # Tool invocations
-stm32f7508_LCD_Demo_Cpp.elf: $(OBJS) $(USER_OBJS) E:\STM32f7508Dk_Projects\stm32f7508_LCD_Demo_Cpp\STM32F750N8HX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "stm32f7508_LCD_Demo_Cpp.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"E:\STM32f7508Dk_Projects\stm32f7508_LCD_Demo_Cpp\STM32F750N8HX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f7508_LCD_Demo_Cpp.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+stm32f7508_LCD_Demo_Cpp.elf: $(OBJS) $(USER_OBJS) E:\GitHub_Projects_Repo\stm32f7508_projects\stm32f7508_LCD_Demo_Cpp\STM32F750N8HX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "stm32f7508_LCD_Demo_Cpp.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"E:\GitHub_Projects_Repo\stm32f7508_projects\stm32f7508_LCD_Demo_Cpp\STM32F750N8HX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f7508_LCD_Demo_Cpp.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

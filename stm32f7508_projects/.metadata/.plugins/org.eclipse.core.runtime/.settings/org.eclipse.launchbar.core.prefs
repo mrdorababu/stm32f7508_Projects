@@ -1,0 +1,11 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f7508_Simple_KWS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f7508_Test_KWS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LTDC_PicturesFromSDCard Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:RMS_Mono Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LibJPEG_Decoding Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Stm32f7_kws\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f7508_LCD_Demo_Cpp\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f7508_LCD_Demo_Cpp\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f7508_Simple_KWS\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f7508_Simple_KWS\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f7508_Test_KWS\ Debug/activeLaunchMode=debug

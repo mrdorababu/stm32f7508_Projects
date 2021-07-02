@@ -1,0 +1,10 @@
+16:08:57 **** Incremental Build of configuration Debug for project stm32f7508_Simple_KWS ****
+make -j4 all 
+arm-none-eabi-size   stm32f7508_Simple_KWS.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 184356	    308	   4436	 189100	  2e2ac	stm32f7508_Simple_KWS.elf
+Finished building: default.size.stdout
+ 
+
+16:08:58 Build Finished. 0 errors, 0 warnings. (took 1s.641ms)
+

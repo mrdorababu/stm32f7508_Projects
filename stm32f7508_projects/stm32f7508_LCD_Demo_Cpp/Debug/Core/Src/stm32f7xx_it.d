@@ -42,11 +42,11 @@ Core/Src/stm32f7xx_it.o: ../Core/Src/stm32f7xx_it.c ../Core/Inc/main.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
- E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sd.h \
- E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h \
- E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_audio.h \
- e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\wm8994\wm8994.h \
- e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\common\audio.h \
+ E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sd.h \
+ E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h \
+ E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_audio.h \
+ e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\wm8994\wm8994.h \
+ e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\common\audio.h \
  ../Core/Inc/stm32f7xx_it.h
 
 ../Core/Inc/main.h:
@@ -137,14 +137,14 @@ Core/Src/stm32f7xx_it.o: ../Core/Src/stm32f7xx_it.c ../Core/Inc/main.h \
 
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
 
-E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sd.h:
+E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sd.h:
 
-E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h:
+E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h:
 
-E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_audio.h:
+E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_audio.h:
 
-e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\wm8994\wm8994.h:
+e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\wm8994\wm8994.h:
 
-e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\common\audio.h:
+e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\common\audio.h:
 
 ../Core/Inc/stm32f7xx_it.h:

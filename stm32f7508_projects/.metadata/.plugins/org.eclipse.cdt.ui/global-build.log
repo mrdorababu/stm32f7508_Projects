@@ -1,0 +1,17 @@
+13:23:07 **** Incremental Build of configuration Debug for project LibJPEG_Decoding ****
+make -j4 all 
+arm-none-eabi-gcc "E:/GitHub_Projects_Repo/stm32f7508_projects/LibJPEG_Decoding/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 '-DAPPLICATION_ADDRESS=0x90000000U' '-DSYSTEM_FREQ=216' -DUSE_HAL_DRIVER -DSTM32F750xx -DUSE_STM32F7508_DISCO -c -I../../../Inc -I../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../../Drivers/BSP/STM32F7508-Discovery -I../../../Drivers/BSP/Components/Common -I../../../Middlewares/Third_Party/FatFs/src -I../../../Middlewares/Third_Party/FatFs/src/drivers -I../../../Middlewares/Third_Party/LibJPEG/include -I../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -Wno-main -fstack-usage -MMD -MP -MF"Application/User/main.d" -MT"Application/User/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/main.o"
+arm-none-eabi-gcc -o "LibJPEG_Decoding.elf" @"objects.list"   -mcpu=cortex-m7 -T"../STM32F750N8Hx_FLASH.ld" --specs=nosys.specs -Wl,-Map="LibJPEG_Decoding.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LibJPEG_Decoding.elf
+ 
+arm-none-eabi-objdump -h -S  LibJPEG_Decoding.elf  > "LibJPEG_Decoding.list"
+arm-none-eabi-objcopy  -O ihex  LibJPEG_Decoding.elf  "LibJPEG_Decoding.hex"
+arm-none-eabi-size   LibJPEG_Decoding.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39040	    168	  46376	  85584	  14e50	LibJPEG_Decoding.elf
+Finished building: default.size.stdout
+ 
+Finished building: LibJPEG_Decoding.hex
+ 
+Finished building: LibJPEG_Decoding.list
+ 

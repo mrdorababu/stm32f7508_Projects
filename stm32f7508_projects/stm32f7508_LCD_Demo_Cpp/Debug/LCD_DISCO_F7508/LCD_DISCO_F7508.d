@@ -1,8 +1,8 @@
 LCD_DISCO_F7508/LCD_DISCO_F7508.o: ../LCD_DISCO_F7508/LCD_DISCO_F7508.cpp \
  ../LCD_DISCO_F7508/LCD_DISCO_F7508.h \
- E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_lcd.h \
- e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\rk043fn48h\rk043fn48h.h \
- E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sdram.h \
+ E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_lcd.h \
+ e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\rk043fn48h\rk043fn48h.h \
+ E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sdram.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../Core/Inc/stm32f7xx_hal_conf.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -46,16 +46,16 @@ LCD_DISCO_F7508/LCD_DISCO_F7508.o: ../LCD_DISCO_F7508/LCD_DISCO_F7508.cpp \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h \
- E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h \
- e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\utilities\fonts\fonts.h
+ E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h \
+ e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\utilities\fonts\fonts.h
 
 ../LCD_DISCO_F7508/LCD_DISCO_F7508.h:
 
-E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_lcd.h:
+E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_lcd.h:
 
-e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\rk043fn48h\rk043fn48h.h:
+e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\drivers\bsp\components\rk043fn48h\rk043fn48h.h:
 
-E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sdram.h:
+E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery_sdram.h:
 
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 
@@ -143,6 +143,6 @@ E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discover
 
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_uart_ex.h:
 
-E:/STM32f7508Dk_Projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h:
+E:/GitHub_Projects_Repo/stm32f7508_projects/stm32f7508_LCD_Demo_Cpp/Drivers/BSP/STM32F7508-Discovery/stm32f7508_discovery.h:
 
-e:\stm32f7508dk_projects\stm32f7508_lcd_demo_cpp\utilities\fonts\fonts.h:
+e:\github_projects_repo\stm32f7508_projects\stm32f7508_lcd_demo_cpp\utilities\fonts\fonts.h:
