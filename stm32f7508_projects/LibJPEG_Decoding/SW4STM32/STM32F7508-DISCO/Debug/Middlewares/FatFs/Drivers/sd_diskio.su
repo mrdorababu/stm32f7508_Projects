@@ -1,6 +1,0 @@
-sd_diskio.c:77:16:SD_CheckStatus.isra.0	8	static
-sd_diskio.c:94:9:SD_initialize	8	static
-sd_diskio.c:115:9:SD_status	0	static
-sd_diskio.c:128:9:SD_read	8	static
-sd_diskio.c:182:9:SD_ioctl	48	static
-sd_diskio.c:155:9:SD_write	8	static

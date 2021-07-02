@@ -1,3 +1,0 @@
-jdapistd.c:38:1:jpeg_start_decompress	24	static
-jdapistd.c:152:1:jpeg_read_scanlines	32	static
-jdapistd.c:185:1:jpeg_read_raw_data	24	static
